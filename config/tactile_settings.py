@@ -1,0 +1,9 @@
+PORT_TAC_1       = "/dev/ttyUSB0"
+PORT_TAC_2       = "/dev/ttyUSB1"
+BAUD_TAC       = 2_000_000
+ROWS, COLS = 12, 32
+MAGIC      = b"\xAA\x55"
+THRESHOLD  = 20
+NOISE_SCALE= 60
+INIT_FRAMES= 30
+ALPHA      = 0.2
