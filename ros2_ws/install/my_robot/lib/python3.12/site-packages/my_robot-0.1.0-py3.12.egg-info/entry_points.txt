@@ -1,2 +1,0 @@
-[console_scripts]
-tactile_node = my_robot.tactile_node:main
