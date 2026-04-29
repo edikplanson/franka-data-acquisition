@@ -1,0 +1,23 @@
+[0.832s] Invoking command in '/home/eplanson/Documents/franka-data-acquisition/ros2_ws/src/my_robot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/eplanson/Documents/franka-data-acquisition/ros2_ws/build/my_robot/prefix_override:/home/eplanson/.local/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eplanson/Documents/franka-data-acquisition/ros2_ws/install/my_robot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot build --build-base /home/eplanson/Documents/franka-data-acquisition/ros2_ws/build/my_robot/build install --record /home/eplanson/Documents/franka-data-acquisition/ros2_ws/build/my_robot/install.log --single-version-externally-managed
+[1.080s] running egg_info
+[1.102s] writing ../../build/my_robot/my_robot.egg-info/PKG-INFO
+[1.103s] writing dependency_links to ../../build/my_robot/my_robot.egg-info/dependency_links.txt
+[1.103s] writing entry points to ../../build/my_robot/my_robot.egg-info/entry_points.txt
+[1.103s] writing requirements to ../../build/my_robot/my_robot.egg-info/requires.txt
+[1.103s] writing top-level names to ../../build/my_robot/my_robot.egg-info/top_level.txt
+[1.150s] reading manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'
+[1.151s] writing manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'
+[1.151s] running build
+[1.151s] running build_py
+[1.151s] copying my_robot/tactile_node.py -> /home/eplanson/Documents/franka-data-acquisition/ros2_ws/build/my_robot/build/lib/my_robot
+[1.151s] running install
+[1.157s] running install_lib
+[1.179s] copying /home/eplanson/Documents/franka-data-acquisition/ros2_ws/build/my_robot/build/lib/my_robot/tactile_node.py -> /home/eplanson/Documents/franka-data-acquisition/ros2_ws/install/my_robot/lib/python3.12/site-packages/my_robot
+[1.180s] byte-compiling /home/eplanson/Documents/franka-data-acquisition/ros2_ws/install/my_robot/lib/python3.12/site-packages/my_robot/tactile_node.py to tactile_node.cpython-312.pyc
+[1.181s] running install_egg_info
+[1.205s] removing '/home/eplanson/Documents/franka-data-acquisition/ros2_ws/install/my_robot/lib/python3.12/site-packages/my_robot-0.1.0-py3.12.egg-info' (and everything under it)
+[1.205s] Copying ../../build/my_robot/my_robot.egg-info to /home/eplanson/Documents/franka-data-acquisition/ros2_ws/install/my_robot/lib/python3.12/site-packages/my_robot-0.1.0-py3.12.egg-info
+[1.206s] running install_scripts
+[1.350s] Installing tactile_node script to /home/eplanson/Documents/franka-data-acquisition/ros2_ws/install/my_robot/bin
+[1.351s] writing list of installed files to '/home/eplanson/Documents/franka-data-acquisition/ros2_ws/build/my_robot/install.log'
+[1.371s] Invoked command in '/home/eplanson/Documents/franka-data-acquisition/ros2_ws/src/my_robot' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/eplanson/Documents/franka-data-acquisition/ros2_ws/build/my_robot/prefix_override:/home/eplanson/.local/lib/python3.12/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/eplanson/Documents/franka-data-acquisition/ros2_ws/install/my_robot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot build --build-base /home/eplanson/Documents/franka-data-acquisition/ros2_ws/build/my_robot/build install --record /home/eplanson/Documents/franka-data-acquisition/ros2_ws/build/my_robot/install.log --single-version-externally-managed

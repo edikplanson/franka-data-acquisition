@@ -1,0 +1,32 @@
+running egg_info
+creating ../../build/my_robot/my_robot.egg-info
+writing ../../build/my_robot/my_robot.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_robot/my_robot.egg-info/dependency_links.txt
+writing entry points to ../../build/my_robot/my_robot.egg-info/entry_points.txt
+writing requirements to ../../build/my_robot/my_robot.egg-info/requires.txt
+writing top-level names to ../../build/my_robot/my_robot.egg-info/top_level.txt
+writing manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'
+reading manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/eplanson/Documents/franka-data-acquisition/ros2_ws/build/my_robot/build
+creating /home/eplanson/Documents/franka-data-acquisition/ros2_ws/build/my_robot/build/lib
+creating /home/eplanson/Documents/franka-data-acquisition/ros2_ws/build/my_robot/build/lib/my_robot
+copying my_robot/tactile_node.py -> /home/eplanson/Documents/franka-data-acquisition/ros2_ws/build/my_robot/build/lib/my_robot
+copying my_robot/__init__.py -> /home/eplanson/Documents/franka-data-acquisition/ros2_ws/build/my_robot/build/lib/my_robot
+copying my_robot/tactile_reader.py -> /home/eplanson/Documents/franka-data-acquisition/ros2_ws/build/my_robot/build/lib/my_robot
+running install
+running install_lib
+creating /home/eplanson/Documents/franka-data-acquisition/ros2_ws/install/my_robot/lib/python3.12/site-packages/my_robot
+copying /home/eplanson/Documents/franka-data-acquisition/ros2_ws/build/my_robot/build/lib/my_robot/tactile_node.py -> /home/eplanson/Documents/franka-data-acquisition/ros2_ws/install/my_robot/lib/python3.12/site-packages/my_robot
+copying /home/eplanson/Documents/franka-data-acquisition/ros2_ws/build/my_robot/build/lib/my_robot/__init__.py -> /home/eplanson/Documents/franka-data-acquisition/ros2_ws/install/my_robot/lib/python3.12/site-packages/my_robot
+copying /home/eplanson/Documents/franka-data-acquisition/ros2_ws/build/my_robot/build/lib/my_robot/tactile_reader.py -> /home/eplanson/Documents/franka-data-acquisition/ros2_ws/install/my_robot/lib/python3.12/site-packages/my_robot
+byte-compiling /home/eplanson/Documents/franka-data-acquisition/ros2_ws/install/my_robot/lib/python3.12/site-packages/my_robot/tactile_node.py to tactile_node.cpython-312.pyc
+byte-compiling /home/eplanson/Documents/franka-data-acquisition/ros2_ws/install/my_robot/lib/python3.12/site-packages/my_robot/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/eplanson/Documents/franka-data-acquisition/ros2_ws/install/my_robot/lib/python3.12/site-packages/my_robot/tactile_reader.py to tactile_reader.cpython-312.pyc
+running install_egg_info
+Copying ../../build/my_robot/my_robot.egg-info to /home/eplanson/Documents/franka-data-acquisition/ros2_ws/install/my_robot/lib/python3.12/site-packages/my_robot-0.1.0-py3.12.egg-info
+running install_scripts
+Installing tactile_node script to /home/eplanson/Documents/franka-data-acquisition/ros2_ws/install/my_robot/bin
+writing list of installed files to '/home/eplanson/Documents/franka-data-acquisition/ros2_ws/build/my_robot/install.log'
