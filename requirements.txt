@@ -2,3 +2,7 @@ numpy
 scipy
 pyserial
 opencv-python
+panda-python
+pandas
+pyarrow
+rerun-sdk
