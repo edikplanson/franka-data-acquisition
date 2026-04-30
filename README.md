@@ -6,20 +6,12 @@ Data acquisition code for a teleoperated Franka robot (pose, cameras, tactile se
 
 ## Project Setup
 
-This project uses Python with a virtual environment.
-
-##  1. Create virtual environment
-Create a virtual environment inside the project file, this prevents conflicts between dependencies.
+It is recommended to create a virtual environment with this command :
 ```bash
 python -m venv venv
 ```
-##  2. Activate virtual environment
 
-```bash
-source venv/bin/activate
-```
-
-##  3. Install dependencies
+## Install dependencies
 
 ```bash
 pip install -r requirements.txt

@@ -25,6 +25,7 @@ class TactileSensor:
         self.INIT_FRAMES = init_frames
         self.ALPHA = alpha
         self.MAGIC = b"\xAA\x55"
+    
         self.serDev = serial.Serial(self.PORT, self.BAUD)
         self.serialThread = None
         self.contact_data_norm = np.zeros((self.ROWS, self.COLS), dtype=np.float32)
@@ -165,9 +166,10 @@ class TactileSensor:
 
     def temporal_filter(self, new_frame, prev_frame): # simple exponential moving average filter
         return self.ALPHA * new_frame + (1 - self.ALPHA) * prev_frame
-    
-    def visualizer(self): # visualize the filtered contact data using OpenCV colormap
-        colormap = cv2.applyColorMap(self.temp_filtered_data_scaled, cv2.COLORMAP_VIRIDIS)
+    def get_colormap(self):
+        return cv2.applyColorMap(self.temp_filtered_data_scaled, cv2.COLORMAP_VIRIDIS)
+    def visualizer(self):
+        colormap = self.get_colormap()
         cv2.imshow("Contact Data_left", colormap)
         cv2.waitKey(1)
 
