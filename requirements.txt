@@ -6,3 +6,4 @@ panda-python
 pandas
 pyarrow
 rerun-sdk
+pyrealsense2
